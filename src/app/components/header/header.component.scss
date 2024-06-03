@@ -1,0 +1,51 @@
+.top-band{
+    width: 100%;
+    height: 10px;
+    background-color: #1E90FF;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #e9e9c2, white)
+}
+
+.header-text {
+    text-align: center;
+  }
+  
+  .title-blue {
+    color: #1E90FF; /* Light blue color */
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .title-date {
+    color: #1E90FF; /* Light blue color */
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .title-red {
+    color: #FF4500; /* Red color */
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .title-blue {
+      font-size: 1.2rem;
+    }
+    
+    .title-red {
+      font-size: 1.5rem;
+    }
+    
+    .logo {
+      width: 60px;
+      height: 60px;
+    }
+  }
