@@ -9,6 +9,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { BrochureComponent } from './components/brochure/brochure.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { ContentHomeComponent } from './components/content-home/content-home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { BrochureComponent } from './components/brochure/brochure.component';
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    BrochureComponent
+    BrochureComponent,
+    LandingPageComponent,
+    CarouselComponent,
+    ContentHomeComponent
   ],
   imports: [
     BrowserModule,
