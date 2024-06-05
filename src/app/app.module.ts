@@ -14,6 +14,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContentHomeComponent } from './components/content-home/content-home.component';
 import { AboutFoundryComponent } from './components/home-views/about-foundry/about-foundry.component';
 import { AboutIILComponent } from './components/home-views/about-iil/about-iil.component';
+import { ConferenceCommitteeComponent } from './components/home-views/conference-committee/conference-committee.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AboutIILComponent } from './components/home-views/about-iil/about-iil.c
     CarouselComponent,
     ContentHomeComponent,
     AboutFoundryComponent,
-    AboutIILComponent
+    AboutIILComponent,
+    ConferenceCommitteeComponent
   ],
   imports: [
     BrowserModule,

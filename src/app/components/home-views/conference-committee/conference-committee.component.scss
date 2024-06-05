@@ -1,0 +1,41 @@
+.header-title {
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 400px; /* Adjust as needed */
+    margin: 20px auto; /* Center horizontally */
+  }
+
+.keynote-speakers-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .speaker-card {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .speaker-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .speaker-card .card-body {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .speaker-card .card-title {
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  .speaker-card .card-text {
+    color: #666;
+  }
+  
