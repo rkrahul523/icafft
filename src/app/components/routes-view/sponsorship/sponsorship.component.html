@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="sponsorship-page">
+        <div class="title">
+          Sponsorship
+        </div>
+        <div class="container">
+          <div class="card sponsorship-card" *ngFor="let sponsorship of sponsorships">
+            <div class="card-body">
+              <h5 class="card-title">{{ sponsorship.title }}</h5>
+              <div>{{sponsorship.amount }}</div>
+              <div>{{sponsorship.delegates }} Free Delegates</div>
+              <p class="card-text">{{ sponsorship.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+

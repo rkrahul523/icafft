@@ -15,6 +15,7 @@ import { ContentHomeComponent } from './components/content-home/content-home.com
 import { AboutFoundryComponent } from './components/home-views/about-foundry/about-foundry.component';
 import { AboutIILComponent } from './components/home-views/about-iil/about-iil.component';
 import { ConferenceCommitteeComponent } from './components/home-views/conference-committee/conference-committee.component';
+import { SponsorshipComponent } from './components/routes-view/sponsorship/sponsorship.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ConferenceCommitteeComponent } from './components/home-views/conference
     ContentHomeComponent,
     AboutFoundryComponent,
     AboutIILComponent,
-    ConferenceCommitteeComponent
+    ConferenceCommitteeComponent,
+    SponsorshipComponent
   ],
   imports: [
     BrowserModule,

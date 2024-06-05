@@ -1,0 +1,39 @@
+.sponsorship-page .title {
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .sponsorship-page .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sponsorship-card {
+    box-shadow: 0 4px 8px rgba(59, 215, 243, 0.6); /* Yellow box shadow */
+    border: none;
+    margin: 15px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .sponsorship-card .card-body {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .sponsorship-card .card-title {
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  .sponsorship-card .card-text {
+    color: #666;
+  }
+  
