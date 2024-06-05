@@ -12,6 +12,8 @@ import { BrochureComponent } from './components/brochure/brochure.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContentHomeComponent } from './components/content-home/content-home.component';
+import { AboutFoundryComponent } from './components/home-views/about-foundry/about-foundry.component';
+import { AboutIILComponent } from './components/home-views/about-iil/about-iil.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ContentHomeComponent } from './components/content-home/content-home.com
     BrochureComponent,
     LandingPageComponent,
     CarouselComponent,
-    ContentHomeComponent
+    ContentHomeComponent,
+    AboutFoundryComponent,
+    AboutIILComponent
   ],
   imports: [
     BrowserModule,
