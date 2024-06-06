@@ -1,1 +1,55 @@
-<p>footer works!</p>
+<footer class="bg-primary text-white pt-4 pb-2">
+    <div class="container">
+        <!-- Contact Us Section -->
+       
+          <h5>Address for Conference</h5>
+          <div class="row text-center">
+              <div class="col-4">
+                <p><strong>Er. Harun Ansari</strong></p>
+                <div>Honorary Secretary, IEI, JSC</div>
+                <div>IEI Engineers Bhawan, Nepal Kothi Campus, Doranda</div>
+                <div class="mb-1">Ranchi 834002, India</div>
+                <p>Phone: <a href="tel:0651-3510412" class="text-white"> 0651-3510412</a></p>
+                <p>Email: <a href="mailto:jharkhandsc@ieindia.org" class="text-white">jharkhandsc@ieindia.org</a></p>
+              </div>
+              <div class="col-4">
+                <p><strong>Dr. Himanshu Khandelwal</strong></p>
+                <div>Convenor</div>
+                <div>Asst. Professor</div>
+                <div class="mb-1">NIAMT, Ranchi-834003, India</div>
+                <p>Phone: <a href="tel:9167481947" class="text-white"> 9167481947</a></p>
+                <p>Email: <a href="mailto:icafft2024@niamt.ac.in" class="text-white">icafft2024@niamt.ac.in</a></p>
+              </div>
+              <div class="col-4">
+                <p><strong>Dr. Vineet Chak</strong></p>
+                <div>Convenor</div>
+                <div>Asst. Professor</div>
+                <div class="mb-1">NIAMT, Ranchi-834003, India</div>
+                <p>Phone: <a href="tel:8298042604" class="text-white"> 8298042604</a></p>
+                <p>Email: <a href="mailto:icafft2024@niamt.ac.in" class="text-white">icafft2024@niamt.ac.in</a></p>
+              </div>
+           
+          </div>
+      
+        <!-- Quick Links Section -->
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                  <li *ngFor="let link of quickLinks"><a href="{{ link.url }}" class="text-white">{{ link.name }}</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+
+              </div>
+        </div>
+       
+      </div>
+      <!-- Copyright Section -->
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <p>&copy; 2024 Conference. All rights reserved.</p>
+        </div>
+      </div>
+  </footer>
+  

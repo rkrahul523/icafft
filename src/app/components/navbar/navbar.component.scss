@@ -34,3 +34,28 @@
   left: 0;
   background: blue;
 }
+
+
+/* Enable dropdown on hover */
+.navbar-nav .dropdown:hover>.dropdown-menu {
+  display: block;
+  animation: fadeIn 0.3s;
+}
+
+/* Animation for dropdown */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Additional styling to make the dropdown smooth */
+.navbar-nav .dropdown-menu {
+  margin-top: 0;
+  border-radius: 0;
+}

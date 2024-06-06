@@ -1,0 +1,122 @@
+.header-title {
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 400px; /* Adjust as needed */
+    margin: 20px auto; /* Center horizontally */
+  }
+
+  .about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width:100vw;
+  }
+  
+  .about-container {
+    width: 70vw;
+    // min-width: 200px;
+    height: 300px;
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .watermark-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px; /* Adjust the size of the logo */
+    height: 100px; /* Adjust the size of the logo */
+    // background-image: url('/images/icafft-logo.png'); 
+    background-position: center;
+    opacity: 9; /* Adjust the opacity for watermark effect */
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Make the logo not interfere with text selection */
+  }
+  
+  .about-content {
+    position: relative;
+    z-index: 1; /* Ensure text is above the watermark */
+  }
+  
+  .about-content h2 {
+    margin-top: 0;
+  }
+  
+  .about-content p {
+    margin-bottom: 15px;
+  }
+  
+  .side-image img {
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .about-content:first-letter {
+    // padding-left: 50px
+}
+
+
+.heading {
+  margin-top: 0;
+  font-size: 24px;
+  color: #1E90FF;
+  animation: fadeIn 2s ease-in-out;
+  border-bottom: 1px solid red;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-wrapper {
+    display: block;
+    align-items: center;
+  }
+
+  .about-container {
+    width: 100vw;
+    // min-width: 200px;
+    height: 450px;
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+
+  .side-image img {
+    height: 350px;
+    width: 100vw;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+  
+
+
+
+
+

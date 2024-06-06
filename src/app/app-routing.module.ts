@@ -5,12 +5,14 @@ import { AboutComponent } from './components/about/about.component';
 import { BrochureComponent } from './components/brochure/brochure.component';
 import { IROUTE_PATH } from './model/route-path';
 import { SponsorshipComponent } from './components/routes-view/sponsorship/sponsorship.component';
+import { ConferenceCommitteeComponent } from './components/routes-view/conference-committee/conference-committee.component';
 
 const routes: Routes = [
   { path: IROUTE_PATH.HOME, component: HomeComponent },
   { path: IROUTE_PATH.ABOUT, component: AboutComponent },
   { path: IROUTE_PATH.BROCHURE, component: BrochureComponent },
   { path: IROUTE_PATH.SPONSORSHIP, component: SponsorshipComponent },
+  { path: IROUTE_PATH.COMMITTEE, component: ConferenceCommitteeComponent },
   {
     path: '',
     redirectTo: IROUTE_PATH.HOME,

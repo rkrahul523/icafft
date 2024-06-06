@@ -1,0 +1,24 @@
+.header-title {
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .content-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-section h4 {
+    margin-top: 20px;
+  }
+  
+  .content-section p, .content-section ul {
+    margin-bottom: 20px;
+  }
+  

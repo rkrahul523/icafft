@@ -14,8 +14,10 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContentHomeComponent } from './components/content-home/content-home.component';
 import { AboutFoundryComponent } from './components/home-views/about-foundry/about-foundry.component';
 import { AboutIILComponent } from './components/home-views/about-iil/about-iil.component';
-import { ConferenceCommitteeComponent } from './components/home-views/conference-committee/conference-committee.component';
 import { SponsorshipComponent } from './components/routes-view/sponsorship/sponsorship.component';
+import { ConferenceCommitteeComponent } from './components/routes-view/conference-committee/conference-committee.component';
+import { CallForPaperComponent } from './components/home-views/call-for-paper/call-for-paper.component';
+import { RegistrationComponent } from './components/home-views/registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { SponsorshipComponent } from './components/routes-view/sponsorship/spons
     AboutFoundryComponent,
     AboutIILComponent,
     ConferenceCommitteeComponent,
-    SponsorshipComponent
+    SponsorshipComponent,
+    CallForPaperComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
