@@ -6,6 +6,10 @@ import { BrochureComponent } from './components/brochure/brochure.component';
 import { IROUTE_PATH } from './model/route-path';
 import { SponsorshipComponent } from './components/routes-view/sponsorship/sponsorship.component';
 import { ConferenceCommitteeComponent } from './components/routes-view/conference-committee/conference-committee.component';
+import { ContentHomeComponent } from './components/content-home/content-home.component';
+import { AboutIILComponent } from './components/home-views/about-iil/about-iil.component';
+import { AboutFoundryComponent } from './components/home-views/about-foundry/about-foundry.component';
+import { AccountDetailsComponent } from './components/routes-view/account-details/account-details.component';
 
 const routes: Routes = [
   { path: IROUTE_PATH.HOME, component: HomeComponent },
@@ -13,6 +17,10 @@ const routes: Routes = [
   { path: IROUTE_PATH.BROCHURE, component: BrochureComponent },
   { path: IROUTE_PATH.SPONSORSHIP, component: SponsorshipComponent },
   { path: IROUTE_PATH.COMMITTEE, component: ConferenceCommitteeComponent },
+  { path: IROUTE_PATH.NIAMT, component: ContentHomeComponent },
+  { path: IROUTE_PATH.IIL, component: AboutIILComponent },
+  { path: IROUTE_PATH.FFT, component: AboutFoundryComponent },
+  { path: IROUTE_PATH.ACCOUNT, component: AccountDetailsComponent },
   {
     path: '',
     redirectTo: IROUTE_PATH.HOME,

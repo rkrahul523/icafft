@@ -18,6 +18,8 @@ import { SponsorshipComponent } from './components/routes-view/sponsorship/spons
 import { ConferenceCommitteeComponent } from './components/routes-view/conference-committee/conference-committee.component';
 import { CallForPaperComponent } from './components/home-views/call-for-paper/call-for-paper.component';
 import { RegistrationComponent } from './components/home-views/registration/registration.component';
+import { AboutDetailsComponent } from './components/routes-view/about-details/about-details.component';
+import { AccountDetailsComponent } from './components/routes-view/account-details/account-details.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { RegistrationComponent } from './components/home-views/registration/regi
     ConferenceCommitteeComponent,
     SponsorshipComponent,
     CallForPaperComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    AboutDetailsComponent,
+    AccountDetailsComponent
   ],
   imports: [
     BrowserModule,
